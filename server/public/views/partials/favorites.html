@@ -1,0 +1,8 @@
+<div class="container">
+    <h2>Favorite Count: {{count}} </h2>
+  <div class="col-md-6" ng-repeat="pet in favpets">
+    <h2>{{pet.pet_name}}</h2>
+    <p>{{pet.pet_description}}</p>
+    <img ng-src="{{pet.pet_imageurl}}" />
+  </div>
+</div>
